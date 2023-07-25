@@ -1,0 +1,91 @@
+
+.nature{
+    text-align: center;
+    color:aliceblue;
+        margin-top: 5em;
+}
+
+
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, rgba(63, 63, 63, 0.404),rgba(61, 61, 61, 0.37)), url(https://images.wallpaperscraft.com/image/single/tree_sun_sunset_207524_3840x2160.jpg);
+    background-size: 100% 32%;
+    background-repeat: no-repeat;
+    background-color:rgb(32, 32, 32);
+  }
+  
+
+
+
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8em;
+    margin-top: 5em;
+}
+
+.cnt1{margin-left: 2em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.788);
+    font-size: 15px;
+    height: 10em;
+    width: 20em;
+    padding: 0.5em;
+    background-image: linear-gradient(0, #000000, #242323);
+background-size: 0;
+transition: .4s;
+background-repeat: no-repeat;
+}
+
+.cnt2{margin-left: 2em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.788);
+    font-size: 15px;
+    height: 10em;
+    width: 20em;
+    padding: 0.5em;
+    background-image: linear-gradient(0, #000000, #242323);
+background-size: 0;
+transition: .4s;
+background-repeat: no-repeat;
+}
+.cnt3{margin-left: 2em;
+    margin-right: 1em;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.788);
+    font-size: 15px;
+    height: 10em;
+    width: 20em;
+    padding: 0.5em;
+    background-image: linear-gradient(0, #000000, #242323);
+background-size: 0;
+transition: .4s;
+background-repeat: no-repeat;
+}
+
+
+
+
+.cnt1:hover {
+background-size: 100%;
+color: white;
+}
+.cnt2:hover {
+color: white;
+background-size: 100%;
+    }
+    .cnt3:hover {
+color: white;
+background-size: 100%;
+        }
+
+
+  h2{
+    margin-top: 21em;
+    text-align: center;
+  }
